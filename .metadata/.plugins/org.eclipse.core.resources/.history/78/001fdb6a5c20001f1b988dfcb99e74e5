@@ -1,0 +1,10 @@
+package entities;
+
+public class Hangar {
+
+	public String nome;
+	public String localizacao;
+	
+	
+	
+}

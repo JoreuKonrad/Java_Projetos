@@ -1,0 +1,25 @@
+package entities;
+
+public class Hangar {
+
+	public String nome;
+	public String localizacao;
+	
+	private Helicoptero helicoptero;
+	
+	
+	public Hangar() {
+		
+	}
+
+
+	public Hangar(String nome, String localizacao, Helicoptero helicoptero) {
+		super();
+		this.nome = nome;
+		this.localizacao = localizacao;
+		this.helicoptero = helicoptero;
+	}
+	
+	
+	
+}

@@ -1,0 +1,14 @@
+package entities;
+
+public class Comment {
+
+	private String text;
+	
+	public Comment (String text){
+		super();
+		
+		this.text = text;
+	}
+	
+	
+}

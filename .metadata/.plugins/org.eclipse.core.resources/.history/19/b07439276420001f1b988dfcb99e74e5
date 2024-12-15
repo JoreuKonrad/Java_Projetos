@@ -1,0 +1,54 @@
+package entities;
+
+public class Hangar {
+
+	public String nome;
+	public String localizacao;
+	
+	private Helicoptero helicoptero;
+	
+	
+	public Hangar() {
+		
+	}
+
+
+	public Hangar(String nome, String localizacao, Helicoptero helicoptero) {
+		super();
+		this.nome = nome;
+		this.localizacao = localizacao;
+		this.helicoptero = helicoptero;
+	}
+
+
+	public String getNome() {
+		return nome;
+	}
+
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+
+	public String getLocalizacao() {
+		return localizacao;
+	}
+
+
+	public void setLocalizacao(String localizacao) {
+		this.localizacao = localizacao;
+	}
+	
+	public String toString() {
+		
+		StringBuilder sb = new StringBuilder();
+		sb.append("Nome Hangar: " + nome.toString() + "\n");
+		sb.append("Localização: " + localizacao.toString() + "\n");
+		
+		sb.append("Modelos: " + helicoptero.toString() + "\n");
+		
+		return sb.toString();
+	}
+	
+}

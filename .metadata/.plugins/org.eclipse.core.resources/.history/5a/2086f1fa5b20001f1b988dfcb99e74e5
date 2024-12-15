@@ -1,0 +1,24 @@
+package entities;
+
+public class Helicoptero {
+
+	public String marca;
+	public String modelo;
+	public String prefixo;
+	
+	
+	public void helicoptero() {
+		
+	}
+
+
+	public Helicoptero(String marca, String modelo, String prefixo) {
+		super();
+		this.marca = marca;
+		this.modelo = modelo;
+		this.prefixo = prefixo;
+	}
+	
+	
+	
+}
